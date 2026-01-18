@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     
+     
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="/static/img/favicon.ico" />
+        <title>Visual SLAM with RBG-D camera for navigation - Manuel Carita</title>
+        <meta name="author" content="Manuel Carita" />
+        <meta name="description" content="Visual SLAM with RBG-D camera for navigation" />
+        <meta name="keywords" content="Visual SLAM with RBG-D camera for navigation, Manuel Carita, " />
+
+        <meta content="" property="fb:app_id">
+        <meta content="Manuel Carita" property="og:site_name">
+        
+          <meta content="Visual SLAM with RBG-D camera for navigation" property="og:title">
+        
+        
+          <meta content="article" property="og:type">
+        
+        
+          <meta content="Hi there! This is a site where I can share some description about some interest projects throught my career. The main topics related are Computer Vision, Robotics, Machine Learning and EVs.
+" property="og:description">
+        
+        
+          <meta content="http://localhost:4000/proj/proj5" property="og:url">
+        
+        
+        
+          <meta content="http://localhost:4000/static/img/logo-high-resolution.png" property="og:image">
+        
+        
+        
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@">
+        <meta name="twitter:creator" content="@">
+        
+          <meta name="twitter:title" content="Visual SLAM with RBG-D camera for navigation">
+        
+        
+          <meta name="twitter:url" content="http://localhost:4000/proj/proj5">
+        
+        
+          <meta name="twitter:description" content="Hi there! This is a site where I can share some description about some interest projects throught my career. The main topics related are Computer Vision, Robotics, Machine Learning and EVs.
+">
+        
+        
+
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+      <script type="text/javascript">window.baseurl = 'http://localhost:4000';</script>
+      
+        <!-- Custom Fonts -->
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+
+        <!-- FontAwesome icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/74dfc6cf47.css">
+
+        <!-- Core BootStrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <!-- Material Design CSS -->
+        <link rel="stylesheet" href="/static/css/bootstrap-material-design.min.css">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/static/css/syntax.css">
+
+        <!-- Custom CSS -->        
+        <link rel="stylesheet" href="/static/css/thickbox.css">
+        <link rel="stylesheet" href="/static/css/main.css">
+        <link rel="stylesheet" href="/static/css/projects.css">
+
+        <script type="text/javascript">
+          //loadingImage is relative to project dir
+          var tb_pathToImage = "/static/img/loadingAnimation.gif";
+        </script>
+
+    </head>
+
+  <body class="home overflow-hidden">
+    <div class="header-panel shadow-z-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="row-picture">
+              <img id="about" class="logo-img" src="/static/img/logo.png" height="75px" width="75px">
+            </div>
+            <div class="row-details">
+              <h3 class="list-group-item-heading" style="padding-top: 15%;font-size: 32px">Manuel Carita</h3>
+              <h5 class="list-group-item-heading">Mechatronics Engineer</h5>
+              <div class="social-icons">
+	
+        <a class="icon" target="_blank" href="https://www.linkedin.com/in/manuelcarita"><i class="fa fa-linkedin"></i></a>
+    
+        <a class="icon" target="_blank" href="https://github.com/manul30"><i class="fa fa-github"></i></a>
+    
+</div>
+
+            </div>
+            <div class="navbar-header pull-right">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-2x fa-bars"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-7 col-sm-7 col-xs-12">
+          <div class="row">
+            <h2 class="blog-title-pro " style="padding-top: 5%;padding-left: 40%;font-size: 24px;">Visual SLAM with RBG-D camera for navigation</h2>
+            
+            </div>
+            <p class="info">
+              
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container main outer">
+      <div class="row">
+        <div class="col-md-3 col-xs-12">
+              <nav class="menu">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="list-separator nav navbar-nav well well-primary project_page">
+
+	
+	
+	
+	
+	
+	
+    
+	
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  proj5"><a href="/" target="_self"><i class="fa fa-home"></i> Home</a></li>
+
+	
+	
+	
+	
+	
+	
+    
+	
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  proj5"><a href="/projects" target="_self"><i class="fa fa-desktop"></i> Projects</a></li>
+
+	
+	
+	
+	
+	
+	
+    
+	
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  proj5"><a href="/about" target="_self"><i class="fa fa-user"></i> About me</a></li>
+
+	
+	
+	
+	
+	
+	
+    
+	
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  proj5"><a href="/resume" target="_self"><i class="fa fa-graduation-cap"></i> Profile</a></li>
+
+</ul>
+
+    </div>
+    </nav>
+
+        </div>
+        <div class="col-md-9 col-xs-12 full">
+          <article class="post">
+  <h3>Visual SLAM with RBG-D camera for navigation</h3>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+            
+    <img src='/static/projects/proj5/map_rgbd.png' alt="Project title image"/>
+  <p> </p>
+  <div class="post-content" align="justify/left/right/center">
+    <h2 id="intro">Intro</h2>
+
+<p>This project is part of the Autonomoues Robotics course at UTEC. The objective of this project is to compare maps obtained through ViSLAM using RTABMap with stereo camera configuration and the use of an RGB-D depth camera.</p>
+
+<p>Here, we area evaluating both approaches with the Turtlebot3 Waffle Pi robot. Also, we are using the following map to evaluate the obtained results with the ground truth.</p>
+
+<p><img src="/proj/proj5/turtlebot_maze_map_modified.png" style="display: block;margin-left: auto; margin-right: auto;" width="300" /></p>
+
+<h2 id="metodology">Metodology</h2>
+
+<h3 id="a-navigation-algorithm-with-2d-lidar">A. Navigation Algorithm with 2D Lidar</h3>
+
+<p>The first step of the methodology is to establish a navigation algorithm based on the measurements that performs 2D LiDAR. The flow chart of this algorithm is detailed better in the figure below. The essence is to avoid collision with obstacles while navigating through an unknown environment performing the SLAM.</p>
+
+<p><img src="/proj/proj5/diagrama-flujo.png" style="display: block;margin-left: auto; margin-right: auto;" width="300" /></p>
+
+<h3 id="b-visual-slam---stereo-camera">B. Visual SLAM - Stereo Camera</h3>
+
+<p>To make localization and mapping for the robot. The first method to obtain the map of the environment is to use two cameras in stereo configuration.
+That is the reason to first calibrate the cameras with an chess board in Gazebo (You can refer to the <a href="/hmi/2021/10/15/Flutter-comunication-with-ROS.html">Camera Calibration in Gazebo</a>).
+The input will be the two images of the cameras (left and right) to obtain the cloud point from the robot frame and then, we use the R-TabMap library to convert these cloudpoints into a map. We will be use the following logic shown in the figure below.</p>
+
+<p><img src="/proj/proj5/rqt.png" style="display: block;margin-left: auto; margin-right: auto;" width="450" /></p>
+
+<h3 id="c-visual-slam---kinect--imu">C. Visual SLAM - Kinect + IMU</h3>
+<p>This second method consists on the usage of a depth camera (Kinect) and the IMU for robot’s pose estimation. In this case, we will be using the same library as in B, so it needs the odometry and the pointcloud. For the odometry, we are going to apply Extended Kalman Filter (EKF) for pose estimation having linear acceleration and angular velocity as measurements.</p>
+
+<p><img src="/proj/proj5/rqt_C.png" style="display: block;margin-left: auto; margin-right: auto;" width="450" /></p>
+
+<h2 id="simulation">Simulation</h2>
+
+<p>The neccesary packages to run the project are described in thebelow.</p>
+
+<h5 id="1-creating-a-directory-for-turtlebots-files">1. Creating a directory for turtlebots files.</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd src
+mkdir turtlebot3
+cd turtlebot3
+git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
+git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+</code></pre></div></div>
+
+<h5 id="2-cloning-the-repository-of-the-project">2. Cloning the repository of the project.</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ..
+git clone https://github.com/Jimi1811/Visual_SLAM_in_turtlebot3.git
+cd ..
+catkin_make
+</code></pre></div></div>
+
+<h5 id="3-cloning-additional-packages-that-helps-the-camera-calibration">3. Cloning additional packages that helps the camera calibration.</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd src
+git clone https://github.com/ros-perception/image_pipeline.git
+cd ..
+catkin_make --only-pkg-with-deps stereo_image_proc
+</code></pre></div></div>
+
+<h5 id="4-running-these-lines-below-to-execute-the-slam-simulation">4. Running these lines below to execute the SLAM simulation.</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>roslaunch stereo_camera maze.launch
+ROS_NAMESPACE=/stereo rosrun stereo_image_proc stereo_image_proc
+roslaunch rtabmap_legacy stereo_mapping.launch stereo_namespace:="/stereo" rtabmap_args:="--delete_db_on_start" rviz:=true rtabmapviz:=false
+</code></pre></div></div>
+
+<p>The following image describes the world we are trying to mrun the SLAM algorithm with the turtlebot3.</p>
+
+<p><img src="/proj/proj5/turtlebot_maze_map_modified.png" style="display: block;margin-left: auto; margin-right: auto;" width="450" /></p>
+
+<p>The voxels (little cubes in rviz) compound the pointcloud, which will be an input for the R-TabMap. This refers to the first method (stereo camera)</p>
+
+<p><img src="/proj/proj5/map_rgbd.png" style="display: block;margin-left: auto; margin-right: auto;" width="450" /></p>
+
+<p>Here it is the turtlebot exploring new positions and poses inside the environment. While it is moving, the pointclouds try to match to make up the map.</p>
+
+<p><img src="/proj/proj5/map_rbgd_2.png" style="display: block;margin-left: auto; margin-right: auto;" width="450" /></p>
+
+<p>Finally, it is seen that when trying to move the turtlebot for too long, it may cause some displacement between its real position and the one received in Rviz, causing an incorrect mapping.</p>
+
+<p><img src="/proj/proj5/displacement_rviz.png" style="display: block;margin-left: auto; margin-right: auto;" width="450" /></p>
+
+<h2 id="results">Results</h2>
+
+<p>Now, it is important to measure how accurate are the methods shown previously. That is the reason we will be comparing the grid map obtained by the algorithms to its ground truth. We will use two measurements to compare which one of both is better. (correlation and minimun square error).</p>
+
+<p>The next image corresponds to the stereo method 
+<img src="/proj/proj5/map_stereo.png" style="display: block;margin-left: auto; margin-right: auto;" width="250" /></p>
+
+<p>This map is the result of the second method.
+<img src="/proj/proj5/map_kinect.png" style="display: block;margin-left: auto; margin-right: auto;" width="250" /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: center">|RGB-D &amp; EKF |</th>
+      <th style="text-align: center">Stereo Vision|</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Correlación</td>
+      <td style="text-align: center">0.189</td>
+      <td style="text-align: center">0.2157</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">MSE</td>
+      <td style="text-align: center">0.7104</td>
+      <td style="text-align: center">0.808</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<p>Both SLAM methods, using RGB-D camera and
+stereo vision, they managed to successfully complete the task of
+mapping of the proposed map. However, each method has
+its limitations. The RGB-D method has restrictions on
+regarding distance, since its detection range is limited.
+On the other hand, the stereo vision method requires super-
+fices with textures and can be affected by conditions
+of lighting. As recommendations, it is suggested to improve
+the navigation algorithm to avoid collisions and optimize
+the filters used for the IMU, in order to obtain a
+more accurate estimation of the robot pose. These improvements
+will contribute to obtaining more robust and reliable results
+in future 3D mapping applications with Visual SLAM.</p>
+
+<p><br /></p>
+
+<p>Here it is an article about this project (Spanish):</p>
+
+<iframe src="/proj/proj5/Informe_Final.pdf" height="500" width="900"></iframe>
+
+<p>The code can be located <strong><a href="https://github.com/Jimi1811/Visual_SLAM_in_turtlebot3">here</a></strong>.</p>
+
+
+    <p> </p>
+    
+<h3>Project posts</h3>
+    
+    <div class="well">
+<div class="list-group">
+    
+    </div>
+</div>
+
+</article>
+
+          <div class="row">
+            <div class="col-md-12 col-xs-12 footer">
+              <footer>
+  © 2022-2024 Manuel Carita, <a href="/">Home</a> - Powered by Jekyll with <a href="https://github.com/codeasashu/hcz-jekyll-blog">HCZ Material theme</a>, inspired in <a href="https://nikolasent.github.io/">Nikola Falaleev's site</a>.
+</footer>
+<div align="center">
+  <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-0000000000000000"
+    data-ad-slot="0000000000"
+    data-ad-format="auto"></ins>
+</div>
+
+            </div>
+          </div>
+        </div> <!-- end /.col-md-9 -->
+      </div> <!-- end /.row -->
+    </div>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script src="/static/js/thickbox-compressed.js"></script>
+<script src="/static/js/material.min.js"></script>
+<script src="/static/js/main.js"></script>
+<script src="/static/js/projects.js"></script>
+
+  </body>
+</html>
