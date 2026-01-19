@@ -1,2 +1,0 @@
-# josecarita.github.io
-
