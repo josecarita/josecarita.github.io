@@ -1,58 +1,51 @@
 [
-
     {
-        "name": "AUV Bobelto Human-Machine Interface",
-        "image": "proj2/title_img.gif",
-        "url": "/proj/proj2",
-        "date": "May 2022",
-        "tags": ["Robotics","HMI", "UX/UI", "ROS", "Flutter", "Mate ROV 2022"],
-        "main": "true",
-        "id": "proj2"
-    },
-
-    {
-        "name": "Lane Lines Detection",
-        "image": "proj1/title_img.gif",
-        "url": "/proj/proj1",
-        "date": "Nov 2022",
-        "tags": ["Self-Driving","Computer Vision","Image Proccesing"],
-        "main": "true",
-        "id": "proj1"
-    },
-    {
-        "name": "Omnidirectional Robot with Manipulator",
-        "image": "proj3/title_img.gif",
-        "url": "/proj/proj3",
-        "date": "Dec 2022",
-        "tags": ["Robotics","ROS", "Gazebo", "Control Systems", "Simulation"],
-        "main": "true",
-        "id": "proj3"
-    },
-    {
-        "name": "Formula Student Electric",
+        "name": "Cityscapes Semantic Segmentation",
         "image": "proj4/title_img.gif",
         "url": "/proj/proj4",
-        "date": "Jan 2023",
-        "tags": ["FSAE","Electric","Competition","Experiences","Organization","Leadership", "Peru"],
+        "date": "Sep 2017",
+        "tags": [
+            "Deep Learning",
+            "Computer Vision",
+            "Self-Driving"
+        ],
         "main": "true",
         "id": "proj4"
     },
     {
-        "name": "Visual SLAM for navigation with Stereo Camera and RGB-D",
-        "image": "proj5/map_rgbd.png",
-        "url": "/proj/proj5",
-        "date": "Jun 2023",
-        "tags": ["Autonomous Robotics","Computer Vision"],
+        "name": "Vehicle and Lane Lines Detection",
+        "image": "proj2/title_img.gif",
+        "url": "/proj/proj2",
+        "date": "Mar 2017",
+        "tags": [
+            "Self-Driving",
+            "Computer Vision"
+        ],
         "main": "true",
-        "id": "proj5"
+        "id": "proj2"
     },
     {
-        "name": "Impedance control on Robotic Arm",
-        "image": "proj6/gif.gif",
-        "url": "/proj/proj6",
-        "date": "Dec 2023",
-        "tags": ["Autonomous Robotics","Control Systems", "Robotics"],
+        "name": "Image-Based Localization Challenge",
+        "image": "proj3/title_img.gif",
+        "url": "/proj/proj3",
+        "date": "Nov 2016",
+        "tags": [
+            "Self-Driving",
+            "Deep Learning"
+        ],
         "main": "true",
-        "id": "proj6"
+        "id": "proj3"
+    },
+    {
+        "name": "Lane Lines Detection",
+        "image": "proj1/title_img.gif",
+        "url": "/proj/proj1",
+        "date": "Feb 2017",
+        "tags": [
+            "Self-Driving",
+            "Computer Vision"
+        ],
+        "main": "false",
+        "id": "proj1"
     }
 ]

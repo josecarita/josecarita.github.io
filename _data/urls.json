@@ -6,9 +6,24 @@
     "layout": "post"
   },
   {
+    "text": "Blog",
+    "url": "/blog",
+    "icon": "fa-list"
+  },
+  {
     "text": "Projects",
     "url": "/projects",
     "icon": "fa-desktop"
+  },
+  {
+    "text": "Competitions",
+    "url": "/competitions",
+    "icon": "fa-trophy"
+  },
+  {
+    "text": "Articles",
+    "url": "/articles",
+    "icon": "fa-indent"
   },
   {
     "text": "About me",
@@ -18,6 +33,6 @@
   {
     "text": "Profile",
     "url": "/resume",
-    "icon": "fa-graduation-cap"
+    "icon": "fa-graduation-cap",
   }
 ]

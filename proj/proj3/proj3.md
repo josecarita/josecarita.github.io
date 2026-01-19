@@ -1,25 +1,60 @@
 ---
 layout: project_page
-title: Manipulator Robot with omnidirectional platform
+title: Image-Based Localization
 permalink: /proj/proj3
 project_id: proj3
+github_url: https://github.com/udacity/self-driving-car/tree/master/image-localization/community-code/RoboCar
 ---
 
-This project is part of the Fundamentals of Robotics course at UTEC. The objective of the work is to carry out an analysis of the structure of the robot of 6 degrees of freedom by direct and inverse kinematics, as well as the control by inverse kinematics. Likewise, detail the dynamic analysis as its respective control. Finally, visualize the results in Rviz as in Gazebo.
+The Udacity Self-Driving Car Challenge #3.
 
-<img src="/proj/proj3/robot.png" align="center" width="200">
+My (a.k.a. RoboCar team) results and ideas for the Challenge are presented here.
+The solution is based on Deep Learning and realized the "Localization as Classification approach" with GoogLeNet artificial neural networks. The approach took the 3d place on the final [leaderboard](https://github.com/udacity/self-driving-car/tree/master/challenges/challenge-3).
 
-The robot is composed of 2 commercial robots: the KUKA KR4 Agilus and the Neobotix MPO-500. In this work, we attach the KUKA robot on top of the Neobotix. So, we will do the kinematic control of the moving platform with a proportional control.
+Details on this Challenge can be found [here](https://medium.com/udacity/challenge-3-image-based-localization-5d9cadcff9e7#.cv1xx261f).
 
-<img src="/proj/proj3/eq.png" align="center" width="300">
+### Contents:
 
-<img src='/proj/proj3/gg.gif'  alt="Project title image">
+1. Data preparation
+2. Creation of image classes
+3. Model training
+4. Post processing
 
-The whole proccess is described in the following pdf file (spanish)
 
-<iframe src="/proj/proj3/Proyecto_Fundamentos.pdf" height="500" width="900"></iframe>
+## Task
 
-The code can be located __[here](https://github.com/manul30/fdr_manipulator_movil_robot)__.
+The task of the challenge was car localization given images from a front-facing camera on the road from Mountain View to San Francisco. Separate rides were provided for training (with known GPS coordinates for each frame) and tests (images only).
 
-[projectRepo]: https://github.com/manul30/Flutter-bobelto
-[postSVM]: {% post_url 2021-10-15-Flutter-comunication-with-ROS %}
+## Approach
+
+The problem was solved in two steps:
+
+* Direction classification (SF->MV or MV->SF)
+* Localization on the El Camino road
+
+The heart of the approach is a set of three GoogleNets. One is used to determine the direction, two others were dedicated to the localization (classification) of images within SF->MV or MV->SF path. Each of the two "roads" was divided into small "pointers" - areas, created by 50 consequent pictures in a row. The two CNNs were used to classify images by assigning pointers to them. Resulting predictions were interpolated within predicted pointers. As the algorithm does not have any speed estimation, speed from the training dataset was used to calculate the average coordinates shift between frames in each pointer.
+
+
+
+### Hardware and Software
+#### Hardware
+Data processing and training of the NNs were performed on a machine with the following components:
+
+* AMD Phenom(tm) II X4 925
+* 16 GB of RAM
+* Nvidia GeForce GTX 1070
+* SSD storage device
+
+#### Software
+
+* OS OpenSUSE 13.2 (Harlequin) (x86_64), kernel 3.16.7-45-desktop
+* Python 2.7.12 with lmdb, cv2, numpy
+* Caffe with all Prerequisites and Python interface
+* CUDA ver. 8.0.44
+* cuDNN 5.1
+* Nvidia driver v. 367.57
+
+Average training rate for the setup: 4.23 iter/sec.
+
+Average prediction rate: 45.7 fps.
+

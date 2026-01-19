@@ -3,7 +3,7 @@
 }
 
 .header-panel.shadow-z-2 {
-    background-color: #1b1b1b;
+    background-color: #062F4F;
     padding: 15px 0 15px 0;
     width: 100%;
 }
@@ -73,7 +73,7 @@ p.info a {
     text-align: center;
     line-height: 20px;
     font-size: 20px;
-    color: #1b1b1b;
+    color: #062F4F;
     padding: 5px;
     width: 30px;
     height: 30px;
@@ -82,7 +82,7 @@ p.info a {
 
 .icon:hover {
     color: rgba(255, 255, 255, 0.63);
-    background: #33926e;
+    background: #652e5a;
 }
 
 .menu ul li {
@@ -93,7 +93,7 @@ p.info a {
 .menu ul li a:hover,
 .menu ul li a:focus,
 li.current-menu-item>a {
-    background: #33926e;
+    background: #652e5a;
 }
 
 li.current-menu-item:before {
@@ -104,7 +104,7 @@ li.current-menu-item:before {
     position: absolute;
     left: 9px;
     vertical-align: middle;
-    background: #061614;
+    background: #B82601;
 }
 
 .menu ul li a {
