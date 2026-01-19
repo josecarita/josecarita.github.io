@@ -1,14 +1,14 @@
-title: Computer Vision Lab
-email: nikolasent@gmail.com
-author: Nikolay Falaleev
+title: Electronic Engineer
+email: jose.carita.077@gmail.com
+author: Jose Carita
 language: en
-logo: /static/img/avatar.png
-about: by Nikolay Falaleev
+logo: /static/img/logo.jpg
+about: Jose Carita
 description: > 
-  A Robotics, Computer Vision and Machine Learning lab by Nikolay Falaleev. The main focus of the blog is the application of Deep Learning for Computer Vision tasks, as well as other relevant topics: classical Computer Vision, Numerical Methods, and Hardware.
+  Hi there! This is a site where I can share some description about some interest projects throught my career. The main topics related are Embedded Systems, Signal Processing, Machine Learning and BCI.
 baseurl: ""
-url: "https://nikolasent.github.io"  # the base hostname & protocol
-github:  NikolasEnt
+url: "https://josecarita.github.io"  # the base hostname & protocol
+github:  josecarita
 
 allowsearch: false
 enableTags:  true
