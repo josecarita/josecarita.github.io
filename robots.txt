@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-Disallow: /assets/
-Sitemap: https://nikolasent.github.io/sitemap.xml
