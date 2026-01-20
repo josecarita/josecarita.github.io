@@ -118,14 +118,14 @@ body .container .jumbotron-inverse,
 body .container .well-inverse,
 body .container-fluid .jumbotron-inverse,
 body .container-fluid .well-inverse {
-    background-color: #3f51b5
+    background-color: #1b1b1b
 }
 
 body .container .jumbotron-primary,
 body .container .well-primary,
 body .container-fluid .jumbotron-primary,
 body .container-fluid .well-primary {
-    background-color: #062F4F
+    background-color: #1b1b1b
 }
 
 body .container .jumbotron-success,
