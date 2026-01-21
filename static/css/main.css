@@ -93,7 +93,7 @@ p.info a {
 .menu ul li a:hover,
 .menu ul li a:focus,
 li.current-menu-item>a {
-    background: #3b82f6;
+    background: #2563eb;
 }
 
 li.current-menu-item:before {
@@ -104,7 +104,7 @@ li.current-menu-item:before {
     position: absolute;
     left: 9px;
     vertical-align: middle;
-    background: #2563eb;
+    background: #3b82f6;
 }
 
 .menu ul li a {
