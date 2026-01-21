@@ -17,8 +17,8 @@ td {
 </style>
 
 <div align="center">
-  <h2><b>Nikolay S. Falaleev</b></h2>
-  <p>London, United Kingdom, <a href="mailto:nikolasent@gmail.com">nikolasent@gmail.com</a></p>
+  <h2><b>Jose Carita</b></h2>
+  <p>Lima, Peru | <a href="mailto:jose.carita@utec.edu.pe">jose.carita@utec.edu.pe</a></p>
   <i>Head of AI, <a href="https://www.kaggle.com/nikolasent/">Kaggle Master</a></i>
 </div>
 
