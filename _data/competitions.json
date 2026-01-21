@@ -1,18 +1,5 @@
 [
     {
-        "name": "SoccerNet Camera Calibration Challenge 2023",
-        "image": "comp4/logo.webp",
-        "url": "/proj/comp4.html",
-        "date": "May 2023",
-        "tags": [
-            "Deep Learning",
-            "Computer Vision",
-            "CVPR"
-        ],
-        "main": "true",
-        "id": "comp4"
-    },
-    {
         "name": "Kaggle: TGS Salt Identification Challenge",
         "image": "comp3/title.jpg",
         "url": "/proj/comp3.html",
