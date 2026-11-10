@@ -7,8 +7,13 @@ table {
 table,
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid var(--line);
     border-collapse: collapse;
+}
+
+th {
+    background-color: var(--slate);
+    color: var(--mint);
 }
 
 th,
