@@ -12,7 +12,7 @@ I came to engineering through the workbench. After graduating in Electronics and
 
 Working inside hospitals showed me how much patient care depends on instruments that are reliable and well understood. That is what I want to work on: embedded systems that acquire physiological signals and images, and the processing that turns them into useful clinical information.
 
-Along the way I built more than twenty embedded and computer-vision projects as a freelancer (Raspberry Pi, Arduino, ESP32), taught Introduction to Robotics and Device Programming at IES Cibertec, and since October 2025 I have been part of the [TAMBO](/proj/tambo) research collaboration with Harvard University, testing detector electronics developed at UTEC. In 2026 I was an exchange student at Montclair State University (New Jersey, USA).
+Along the way I built more than twenty embedded and computer-vision projects as a freelancer (Raspberry Pi, Arduino, ESP32), taught Introduction to Robotics and Device Programming at IES Cibertec, and since October 2025 I have been part of the [TAMBO](/proj/tambo) research collaboration with Harvard University, testing detector electronics developed at UTEC. From February to August 2026 I was an exchange student at Montclair State University (New Jersey, USA).
 
 ### What I'm looking for
 

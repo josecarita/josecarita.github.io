@@ -14,7 +14,7 @@ permalink: /resume/
 | __Mar 2025 – present__ ||| __B.Sc. Electronics Engineering__, Universidad de Ingeniería y Tecnología (UTEC), Lima, Peru |
 | ||| Member of a student team working towards a research paper; Disrupton 2025 team participant. |
 
-| __Feb 2026 – present__ ||| __Exchange Student__, Montclair State University, New Jersey, USA |
+| __Feb 2026 – Aug 2026__ ||| __Exchange Student__, Montclair State University, New Jersey, USA |
 | ||| Courses: Cross-Cultural Behavior and Management, Leadership. |
 
 | __Aug 2016 – Jul 2019__ ||| __Electronics and Industrial Automation__, Instituto Tecnológico Superior TECSUP, Lima, Peru |
