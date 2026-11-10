@@ -188,13 +188,13 @@ li.current-menu-item:before {
 .btn.btn-info,
 .btn.btn-info.btn-raised {
     background-color: var(--slate);
-    color: var(--mint);
+    color: #fff;
 }
 
 .btn.btn-info:hover,
 .btn.btn-info.btn-raised:hover {
     background-color: var(--slate-light);
-    color: var(--mint);
+    color: #fff;
 }
 
 span.tags,
