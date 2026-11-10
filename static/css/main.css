@@ -278,3 +278,17 @@ footer {
     margin: 0 auto;
     display: block;
 }
+.project-meta {
+    color: #757575;
+    margin-bottom: 15px;
+}
+
+.projects.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects.row:before,
+.projects.row:after {
+    display: none;
+}

@@ -1,51 +1,74 @@
 [
     {
-        "name": "Cityscapes Semantic Segmentation",
-        "image": "proj4/title_img.gif",
-        "url": "/proj/proj4",
-        "date": "Sep 2017",
-        "tags": [
-            "Deep Learning",
-            "Computer Vision",
-            "Self-Driving"
-        ],
+        "name": "TAMBO: Detector Electronics Testing",
+        "image": "tambo/title.png",
+        "url": "/proj/tambo",
+        "date": "Oct 2025 – Present",
+        "tags": ["Signal Processing", "Research", "Instrumentation"],
         "main": "true",
-        "id": "proj4"
+        "id": "tambo"
     },
     {
-        "name": "Vehicle and Lane Lines Detection",
-        "image": "proj2/title_img.gif",
-        "url": "/proj/proj2",
-        "date": "Mar 2017",
-        "tags": [
-            "Self-Driving",
-            "Computer Vision"
-        ],
+        "name": "Fall Detection for Elderly Patients",
+        "image": "fall-detector/title.png",
+        "url": "/proj/fall-detector",
+        "date": "2022",
+        "tags": ["Computer Vision", "Biomedical", "IoT"],
         "main": "true",
-        "id": "proj2"
+        "id": "fall-detector"
     },
     {
-        "name": "Image-Based Localization Challenge",
-        "image": "proj3/title_img.gif",
-        "url": "/proj/proj3",
-        "date": "Nov 2016",
-        "tags": [
-            "Self-Driving",
-            "Deep Learning"
-        ],
+        "name": "IoT Vital-Signs Monitor",
+        "image": "vital-signs-monitor/title.png",
+        "url": "/proj/vital-signs-monitor",
+        "date": "2022",
+        "tags": ["Biomedical", "Embedded Systems", "IoT"],
         "main": "true",
-        "id": "proj3"
+        "id": "vital-signs-monitor"
     },
     {
-        "name": "Lane Lines Detection",
-        "image": "proj1/title_img.gif",
-        "url": "/proj/proj1",
-        "date": "Feb 2017",
-        "tags": [
-            "Self-Driving",
-            "Computer Vision"
-        ],
+        "name": "Face-Tracking Gimbal with PID Control",
+        "image": "face-tracking-gimbal/title.png",
+        "url": "/proj/face-tracking-gimbal",
+        "date": "Jul 2021",
+        "tags": ["Control", "Computer Vision", "Embedded Systems"],
+        "main": "true",
+        "id": "face-tracking-gimbal"
+    },
+    {
+        "name": "Remote-Class Attention Monitor",
+        "image": "attention-monitor/title.png",
+        "url": "/proj/attention-monitor",
+        "date": "Dec 2021",
+        "tags": ["Computer Vision"],
+        "main": "true",
+        "id": "attention-monitor"
+    },
+    {
+        "name": "AC Motor Condition Monitoring",
+        "image": "motor-monitoring/title.png",
+        "url": "/proj/motor-monitoring",
+        "date": "2022",
+        "tags": ["Signal Processing", "Embedded Systems", "IoT"],
+        "main": "true",
+        "id": "motor-monitoring"
+    },
+    {
+        "name": "Pose Estimation on Raspberry Pi",
+        "image": "pose-estimation/title.jpg",
+        "url": "/proj/pose-estimation",
+        "date": "2022",
+        "tags": ["Computer Vision", "Embedded Systems"],
         "main": "false",
-        "id": "proj1"
+        "id": "pose-estimation"
+    },
+    {
+        "name": "Elevator Person Detection",
+        "image": "elevator-detection/title.png",
+        "url": "/proj/elevator-detection",
+        "date": "2022",
+        "tags": ["Computer Vision", "Embedded Systems"],
+        "main": "false",
+        "id": "elevator-detection"
     }
 ]

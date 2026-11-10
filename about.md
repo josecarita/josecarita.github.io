@@ -4,13 +4,22 @@ title: About
 permalink: /about/
 ---
 
-## __Welcome!__
+## About me
 
-Hi, my name is Manuel Carita and I am a robotics and EV enthusiast. I've been into this fields since my early age due to its potential in our future life. I'm always opened to learn new things and to share my knowledge with the community. That's why I mostly try to document all my work in this website.
+I'm Jose Carita, an Electronics Engineering student at [UTEC](https://www.utec.edu.pe) in Lima, Peru.
 
-<div><img src="/assets/photos/foto.jpg" alt="foto" style="display: block;margin-left: auto; margin-right: auto;" width=300 height=300/></div>
+I came to engineering through the workbench. After graduating in Electronics and Industrial Automation from TECSUP, where I studied on a full government scholarship, I worked as an automation technician programming PLCs and variable-frequency drives. From 2022 to 2025 I was a biomedical technician at E.B. Pareja Lecaros, installing, programming and maintaining radiology equipment in clinics, and for a time leading the technical service department.
 
-[projects]: /projects/
-[challenges]: /competitions/
-[cv]: /resume/
-[github]: https://github.com/josecarita
+Working inside hospitals showed me how much patient care depends on instruments that are reliable and well understood. That is what I want to work on: embedded systems that acquire physiological signals and images, and the processing that turns them into useful clinical information.
+
+Along the way I built more than twenty embedded and computer-vision projects as a freelancer (Raspberry Pi, Arduino, ESP32), taught Introduction to Robotics and Device Programming at IES Cibertec, and since October 2025 I have been part of the [TAMBO](/proj/tambo) research collaboration with Harvard University, testing detector electronics developed at UTEC. In 2026 I was an exchange student at Montclair State University (New Jersey, USA).
+
+### What I'm looking for
+
+Research internships in biomedical signal processing, medical image analysis, or embedded systems for health monitoring, where I can contribute hands-on hardware experience and keep learning the theory behind it.
+
+### Contact
+
+- Email: [jose.carita@utec.edu.pe](mailto:jose.carita@utec.edu.pe)
+- LinkedIn: [jose-carita](https://www.linkedin.com/in/jose-carita)
+- GitHub: [josecarita](https://github.com/josecarita)

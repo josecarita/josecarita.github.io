@@ -1,0 +1,21 @@
+<div class="project-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ include.project.tags | jsonify | downcase }}'>
+    <div class="well project-outer">
+        <div class="project-inner">
+            <a href="{{ include.project.url }}">
+                <div class="project-img bordered" style="background-image: url('/static/projects/{{ include.project.image }}');"></div>
+                <h3 class="project-headlines">{{ include.project.name }}</h3>
+            </a>
+            <div class="project-content">
+                <div class="tag-holder">
+                    {% for tag in include.project.tags %}
+                    <span class="label tags tag-filter" data-tag="{{ tag | downcase }}">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="project-footer">
+                <a href="{{ include.project.url }}" class="btn btn-info btn-raised btn-sm project-link">View</a>
+                <span class="project-timeline">{{ include.project.date }}</span>
+            </div>
+        </div>
+    </div>
+</div>

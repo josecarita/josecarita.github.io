@@ -1,36 +1,29 @@
-title: Electronic Engineer
-email: jose.carita.077@gmail.com
+title: Electronics Engineering Student
 author: Jose Carita
+email: jose.carita@utec.edu.pe
 language: en
 logo: /static/img/avatar.png
-about: Jose Carita
-description: > 
-  Hi there! This is a site where I can share some description about some interest projects throught my career. The main topics related are Embedded Systems, Signal Processing, Machine Learning and BCI.
+description: >
+  I am an Electronics Engineering student at UTEC (Lima, Peru) with several years of hands-on work as a
+  biomedical equipment technician, installing and maintaining radiology and tomography systems. I build
+  embedded and computer-vision prototypes for health monitoring and I am looking to specialize in
+  biomedical signal and image processing.
+url: "https://josecarita.github.io"
 baseurl: ""
-url: "https://josecarita.github.io"  # the base hostname & protocol
-github:  josecarita
 
-allowsearch: false
-enableTags:  true
-
-paginate: 10
-per_page: 10
-paginate_path: "/blog/page:num/"
+enableTags: true
 markdown: kramdown
-kramdown:
-  math_engine: mathjax
 
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+plugins:
   - jekyll-seo-tag
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
 
 social:
   name: Jose Carita
   links:
     - https://www.linkedin.com/in/jose-carita
     - https://github.com/josecarita
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
