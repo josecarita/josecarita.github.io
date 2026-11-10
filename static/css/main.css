@@ -81,7 +81,7 @@ a:hover {
 }
 
 .row-details h5 {
-    color: var(--mint);
+    color: #fff;
 }
 
 p.info,
@@ -112,7 +112,7 @@ h2.blog-title-pro:after {
 }
 
 .icon {
-    background: var(--mint);
+    background: #fff;
     border-radius: 100%;
     text-align: center;
     line-height: 20px;
@@ -127,11 +127,11 @@ h2.blog-title-pro:after {
 .icon:hover,
 .icon:focus {
     color: var(--slate);
-    background: #fff;
+    background: var(--mint);
 }
 
 .navbar-toggle i {
-    color: var(--mint);
+    color: #fff;
 }
 
 /* Side menu */
