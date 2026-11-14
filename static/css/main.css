@@ -237,3 +237,8 @@ footer {
     color: var(--slate-muted);
     font-size: 11px;
 }
+
+.icon-text {
+    font-size: 14px;
+    font-weight: 700;
+}

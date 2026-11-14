@@ -23,3 +23,4 @@ Research internships in biomedical signal processing, medical image analysis, or
 - Email: [jose.carita@utec.edu.pe](mailto:jose.carita@utec.edu.pe)
 - LinkedIn: [jose-carita](https://www.linkedin.com/in/jose-carita)
 - GitHub: [josecarita](https://github.com/josecarita)
+- ORCID: [orcid.org/0009-0009-6167-5304](https://orcid.org/0009-0009-6167-5304)

@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 <div align="center">
   <h2><b>Jose Carita</b></h2>
-  <p>Lima, Peru | <a href="mailto:jose.carita@utec.edu.pe">jose.carita@utec.edu.pe</a></p>
+  <p>Lima, Peru | <a href="mailto:jose.carita@utec.edu.pe">jose.carita@utec.edu.pe</a> | <a href="https://orcid.org/0009-0009-6167-5304">ORCID 0009-0009-6167-5304</a></p>
   <i>Electronics Engineering Student · Biomedical Equipment Technician</i>
 </div>
 
