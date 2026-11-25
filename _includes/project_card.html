@@ -2,7 +2,7 @@
     <div class="well project-outer">
         <div class="project-inner">
             <a href="{{ include.project.url }}">
-                <div class="project-img bordered" style="background-image: url('/static/projects/{{ include.project.image }}');"></div>
+                <div class="project-img bordered" style="background-image: url('/static/projects/{{ include.project.image }}?v={{ site.time | date: '%s' }}');"></div>
                 <h3 class="project-headlines">{{ include.project.name }}</h3>
             </a>
             <div class="project-content">
