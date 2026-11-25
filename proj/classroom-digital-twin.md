@@ -12,7 +12,7 @@ github_url: https://github.com/josecarita/gemelo-digital-l419
 
 Interdisciplinary team project of four students (Electronics, Computer Science and Mechatronics). My main responsibilities:
 
-- Sensors and firmware: adapted the node and shared-gateway firmware (base code by another team in the course) and wrote the cloud bridge.
+- Sensors and firmware: starting from classmates' code, I updated the sensor-node and gateway firmware so it works correctly and as intended, as a functional shared base for every team in the class, and wrote the cloud bridge.
 - Communications (ESP-NOW, Wi-Fi/HTTP, MQTT over TLS) and, together with the dashboard developer, the integration with EMQX and Supabase.
 - Together with the mechatronics teammates, the cause → event → effect reasoning graphs and the SysML model in Gaphor (30 diagrams, 31 technical requirements, 9 test cases), following the NASA Systems Engineering Handbook.
 
