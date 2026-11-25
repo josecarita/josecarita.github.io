@@ -1,7 +1,7 @@
 [
     {
         "name": "Classroom L419 Digital Twin",
-        "image": "classroom-digital-twin/title.png",
+        "image": "classroom-digital-twin/cover.jpg",
         "url": "/proj/classroom-digital-twin",
         "date": "2026 · In development",
         "tags": ["IoT", "Embedded Systems", "Systems Engineering"],
@@ -10,7 +10,7 @@
     },
     {
         "name": "TAMBO: Detector Electronics Testing",
-        "image": "tambo/title.png",
+        "image": "tambo/cover.jpg",
         "url": "/proj/tambo",
         "date": "Oct 2025 – Present",
         "tags": ["Signal Processing", "Research", "Instrumentation"],
@@ -19,7 +19,7 @@
     },
     {
         "name": "Fall Detection for Elderly Patients",
-        "image": "fall-detector/title.png",
+        "image": "fall-detector/cover.jpg",
         "url": "/proj/fall-detector",
         "date": "2022",
         "tags": ["Computer Vision", "Biomedical", "IoT"],
@@ -28,7 +28,7 @@
     },
     {
         "name": "IoT Vital-Signs Monitor",
-        "image": "vital-signs-monitor/title.png",
+        "image": "vital-signs-monitor/cover.jpg",
         "url": "/proj/vital-signs-monitor",
         "date": "2022",
         "tags": ["Biomedical", "Embedded Systems", "IoT"],
