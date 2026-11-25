@@ -25,6 +25,11 @@ permalink: /resume/
 | __Oct 2025 – present__ ||| __TAMBO (Tau Air Shower Mountain-Based Observatory)__, research collaboration with Harvard University |
 | ||| Tested a detector electronics module developed at UTEC, focusing on identifying and mitigating false signal readings. [Details](/proj/tambo) |
 
+## __Leadership & Activities__
+
+| __Mar 2026 – present__ ||| __Founding Member – Director of Events__, IEEE Signal Processing Society – UTEC Student Branch Chapter, Lima, Peru |
+| ||| Co-founded the IEEE Signal Processing Society (SPS) student chapter at UTEC. Co-organized a joint event with the IEEE SPS chapters of UNI and Universidad Nacional Mayor de San Marcos, and organized SPS Day at UTEC to bring signal processing closer to students. |
+
 ## __Experience__
 
 | __Aug 2024 – Dec 2024__ ||| __Part-time Instructor__, IES Cibertec, Lima |
