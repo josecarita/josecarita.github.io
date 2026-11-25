@@ -1,5 +1,14 @@
 [
     {
+        "name": "Classroom L419 Digital Twin",
+        "image": "classroom-digital-twin/title.png",
+        "url": "/proj/classroom-digital-twin",
+        "date": "2026 · In development",
+        "tags": ["IoT", "Embedded Systems", "Systems Engineering"],
+        "main": "true",
+        "id": "classroom-digital-twin"
+    },
+    {
         "name": "TAMBO: Detector Electronics Testing",
         "image": "tambo/title.png",
         "url": "/proj/tambo",
